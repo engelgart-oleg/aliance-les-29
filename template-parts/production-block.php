@@ -17,7 +17,12 @@
             Безусловно, сплочённость команды профессионалов позволяет оценить значение форм воздействия.
           </p>
         </div>
-        <img class="card-image" src="img/production/1.png" alt="Автомобильная химия">
+        <picture class="card-image">
+          <source type="image/webp" srcset="img/production/1.webp">
+          <source type="image/png" srcset="img/production/1.png">
+          <img src="img/production/1.png" alt="Автомобильная химия" width="480" height="300">
+        </picture>
+        <!-- <img class="card-image" src="img/production/1.png" alt="Автомобильная химия"> -->
       </a>
 
       <a href="#" class="card">
@@ -29,7 +34,12 @@
             элементы.
           </p>
         </div>
-        <img class="card-image" src="img/production/2.png" alt="Бытовая химия">
+        <picture class="card-image">
+          <source type="image/webp" srcset="img/production/2.webp">
+          <source type="image/png" srcset="img/production/2.png">
+          <img src="img/production/2.png" alt="Бытовая химия" width="480" height="300">
+        </picture>
+        <!-- <img class="card-image" src="img/production/2.png" alt="Бытовая химия"> -->
       </a>
 
       <a href="#" class="card">
@@ -39,7 +49,12 @@
             Лишь интерактивные прототипы призваны к ответу.
           </p>
         </div>
-        <img class="card-image" src="img/production/3.png" alt="Дезинфицирующие средства">
+        <picture class="card-image">
+          <source type="image/webp" srcset="img/production/3.webp">
+          <source type="image/png" srcset="img/production/3.png">
+          <img src="img/production/3.png" alt="Дезинфицирующие средства" width="480" height="300">
+        </picture>
+        <!-- <img class="card-image" src="img/production/3.png" alt="Дезинфицирующие средства"> -->
       </a>
 
       <a href="#" class="card">
@@ -49,7 +64,12 @@
             Безусловно, сплочённость команды профессионалов позволяет оценить значение форм воздействия.
           </p>
         </div>
-        <img class="card-image" src="img/production/3.png" alt="Пищевые аэрозоли">
+        <picture class="card-image">
+          <source type="image/webp" srcset="img/production/3.webp">
+          <source type="image/png" srcset="img/production/3.png">
+          <img src="img/production/3.png" alt="Пищевые аэрозоли" width="480" height="300">
+        </picture>
+        <!-- <img class="card-image" src="img/production/3.png" alt="Пищевые аэрозоли"> -->
       </a>
 
       <a href="#" class="card">
@@ -59,7 +79,12 @@
             Лишь интерактивные прототипы призваны к ответу.
           </p>
         </div>
-        <img class="card-image" src="img/production/1.png" alt="Косметическая продукция">
+        <picture class="card-image">
+          <source type="image/webp" srcset="img/production/1.webp">
+          <source type="image/png" srcset="img/production/1.png">
+          <img src="img/production/1.png" alt="Косметическая продукция" width="480" height="300">
+        </picture>
+        <!-- <img class="card-image" src="img/production/1.png" alt="Косметическая продукция"> -->
       </a>
 
       <a href="#" class="card">
@@ -71,7 +96,12 @@
             элементы.
           </p>
         </div>
-        <img class="card-image" src="img/production/2.png" alt="Краски аэрозольные">
+        <picture class="card-image">
+          <source type="image/webp" srcset="img/production/2.webp">
+          <source type="image/png" srcset="img/production/2.png">
+          <img src="img/production/2.png" alt="Краски аэрозольные" width="480" height="300">
+        </picture>
+        <!-- <img class="card-image" src="img/production/2.png" alt="Краски аэрозольные"> -->
       </a>
 
     </div>

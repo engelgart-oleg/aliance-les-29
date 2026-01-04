@@ -15,8 +15,6 @@
 </head>
 <body class="front-page" id="<?= basename($_SERVER['SCRIPT_FILENAME']), '.php' ?>">
 
-
-
   <div class="mobile-menu">
 
     <ul class="mobile-menu-nav">
@@ -182,49 +180,36 @@
       </div>
       <!-- /.header-content -->
 
-
       <?php include_once('template-parts/features-slider-block.php') ?>
-      <!-- /.features-slider-block -->
-      
+      <!-- /.features-slider-block -->      
 
     </div>
     <!-- /.container -->
   </header>
 
-
+  <main class="main">
   
-  <?php $block_title = "Схема работы"; include_once('template-parts/section-steps-block.php') ?>
-  <!-- /.section section-light -->
+    <?php $block_title = "Схема работы"; include_once('template-parts/section-steps-block.php') ?>
+    <!-- /.section section-light -->
+    
+    <?php $block_title = "Контрактное производство"; include_once('template-parts/production-block.php') ?>
+    <!-- /.section production -->
+    
+    <?php $block_title = "Собственные <span>торговые</span> марки"; include_once('template-parts/trademarks-block.php') ?>
+    <!-- /.section trademarks -->
+    
+    <?php $block_title = "Отношение к делу и к клиентам"; include_once('template-parts/founder-block.php') ?>
+    <!-- /.section founder -->
+    
+    <?php $block_title = "Производим аэрозольную продукцию для разных сфер"; include_once('template-parts/clients-block.php') ?>
+    <!-- /.section clients -->
+    
+    <?php $block_title = "Блог экспертов в области производства"; include_once('template-parts/blog-block.php') ?>
+    <!-- /.section blog -->
 
+  </main>
 
-  
-  <?php $block_title = "Контрактное производство"; include_once('template-parts/production-block.php') ?>
-  <!-- /.section production -->
-
-
-  
-  <?php $block_title = "Собственные <span>торговые</span> марки"; include_once('template-parts/trademarks-block.php') ?>
-  <!-- /.section trademarks -->
-
-
-  
-  <?php $block_title = "Отношение к делу и к клиентам"; include_once('template-parts/founder-block.php') ?>
-  <!-- /.section founder -->
-
-
-  
-  <?php $block_title = "Производим аэрозольную продукцию для разных сфер"; include_once('template-parts/clients-block.php') ?>
-  <!-- /.section clients -->
-
-
-  
-  <?php $block_title = "Блог экспертов в области производства"; include_once('template-parts/blog-block.php') ?>
-  <!-- /.section blog -->
-
-
-
-  <?php include_once('footer.php')?>
-
+    <?php include_once('footer.php')?>
   
 </body>
 </html>

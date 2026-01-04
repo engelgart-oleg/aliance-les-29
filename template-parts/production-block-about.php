@@ -6,9 +6,12 @@
         <h2 class="section-title about-production-section-title"><?= $block_title ?></h2>
 
         <?php
-          echo '<img class="about-production-image-1" src="img/production-photo-1.png" alt="production photo">';
-          // echo '<img class="about-production-image-2" src="img/production-photo-2.png" alt="production photo">';       
-        ?>
+          echo '<picture class="about-production-image-1">
+                  <source type="image/webp" srcset="img/production-photo-1.webp">
+                  <source type="image/png" srcset="img/production-photo-1.png">
+                  <img src="img/production-photo-1.png" alt="production photo">
+                </picture>';      
+        ?>        
 
         <p class="about-production-text about-production-text-1">
           Предварительные выводы неутешительны: разбавленное изрядной долей эмпатии, рациональное мышление обеспечивает широкому кругу (специалистов) участие в формировании глубокомысленных рассуждений. Но граница обучения кадров создаёт необходимость включения в производственный план целого ряда внеочередных мероприятий с учётом комплекса кластеризации усилий.
@@ -109,15 +112,14 @@
         </ul>
       </div>
       <!-- /.about-prodaction-content -->
-       <?php
-          // echo '<img class="about-production-image-1" src="img/production-photo-1.png" alt="production photo">';
-          // echo '<img class="about-production-image-2" src="img/production-photo-2.png" alt="production photo">';       
-        ?>
     </div>
     <!-- /.about-production-wrapper -->
   </div>
     <?php
-      // echo '<img class="about-production-image-1" src="img/production-photo-1.png" alt="production photo">';
-      echo '<img class="about-production-image-2" src="img/production-photo-2.png" alt="production photo">';       
+      echo '<picture class="about-production-image-2">
+              <source type="image/webp" srcset="img/production-photo-2.webp">
+              <source type="image/png" srcset="img/production-photo-2.png">
+              <img src="img/production-photo-2.png" alt="production photo">
+            </picture>';       
     ?>
 </section>

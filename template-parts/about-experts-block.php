@@ -1,9 +1,21 @@
 <section class="section experts">
   <div class="container experts-container">
     <div class="experts-content-wrapper">
-      <img class="experts-photo-1" src="img/experts.png" alt="experts photo">
-      <img class="experts-photo-2" src="img/experts-2.png" alt="experts photo">
-      <img class="experts-photo-3" src="img/experts-3.png" alt="experts photo">
+      <picture class="experts-photo-1">
+        <source type="image/webp" srcset="img/experts.webp">
+        <source type="image/png" srcset="img/experts.png">
+        <img src="img/experts.png" alt="experts photo">
+      </picture>
+      <picture class="experts-photo-2">
+        <source type="image/webp" srcset="img/experts-2.webp">
+        <source type="image/png" srcset="img/experts-2.png">
+        <img src="img/experts-2.png" alt="experts photo">
+      </picture>
+      <picture class="experts-photo-3">
+        <source type="image/webp" srcset="img/experts-3.webp">
+        <source type="image/png" srcset="img/experts-3.png">
+        <img src="img/experts-3.png" alt="experts photo">
+      </picture>
       <div class="experts-content">
         <?php
         if (!empty($block_title)) {
@@ -20,6 +32,7 @@
         <p class="experts-text experts-text-3">
           Но социально-экономическое развитие напрямую зависит от поставленных обществом задач! Безусловно, постоянный количественный рост и сфера нашей активности предоставляет широкие возможности для системы обучения кадров, соответствующей насущным потребностям. В целом, конечно, выбранный нами инновационный путь обеспечивает широкому кругу (специалистов) участие в формировании своевременного выполнения сверхзадачи. А ещё элементы политического процесса представлены в исключительно положительном свете. Высокий уровень вовлечения представителей целевой аудитории является четким доказательством простого факта: высокотехнологичная концепция общественного уклада создаёт предпосылки для глубокомысленных рассуждений. В своём стремлении повысить качество жизни, они забывают, что дальнейшее развитие различных форм деятельности, а также свежий взгляд на привычные вещи - безусловно открывает новые горизонты для поставленных обществом задач.
         </p>
+      </div>
       <!-- /.experts-content -->
     </div>
     <!-- /.experts-content-wrapper -->

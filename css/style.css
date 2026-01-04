@@ -472,10 +472,10 @@ body {
   margin-top: .625rem;
 }
 .card-image {
-  width: 90%;
+  /* width: 90%; */
   position: absolute;
-  bottom: 0;
   right: 0;
+  bottom: -4px;
   z-index: 0;
 }
 
@@ -579,10 +579,14 @@ body {
 }
 
 .founder-photo {
-  height: 41.25rem;
+  display: flex;
   position: absolute;
   left: 0;
   top: 0;
+}
+.founder-photo img {
+  max-width: 100%;
+  height: auto;
   object-fit: cover;
 }
 
@@ -680,7 +684,6 @@ body {
 
 .clients-logo-item:hover {
   filter: grayscale(0);
-  /* border: .0625rem solid #5c8ee5; */
 }
 
 
@@ -1588,10 +1591,6 @@ body {
 .chemicals-container {
   padding-left: .4375rem;
 }
-.chemicals-wrapper {
-}
-.chemicals-content {
-}
 .chemicals-section-title {
   letter-spacing: 0.5px;
   margin-bottom: 1.6875rem;
@@ -1759,15 +1758,11 @@ body {
   display: flex;
   gap: .5rem;
 }
-.consultation-socials-list-item {
-}
 .consultation-socials-list-item-link {
   display: flex;
   align-items: center;
   padding: .8125rem;
   border: .0625rem solid #ebebf0
-}
-.consultation-socials-link-icon {
 }
 .consultation-info {
   max-width: 60.3125rem;
@@ -1884,8 +1879,6 @@ ol .consultation-list-item:nth-child(3)::before {
 .contacts {
   margin-bottom: 6.25rem;
 }
-.contacts-container {
-}
 .contacts-wrapper {
   display: flex;
   align-items: center;
@@ -1936,8 +1929,6 @@ ol .consultation-list-item:nth-child(3)::before {
 /*************** contacts-map ***************/
 .contacts-map {
   margin-bottom: 13.8125rem;
-}
-.contacts-map-container {
 }
 .contacts-map-iframe {
   width: 87.5rem;
@@ -2047,6 +2038,9 @@ ol .consultation-list-item:nth-child(3)::before {
   .founder-photo {
     left: -9.375rem;
   }
+  .founder-photo img {
+    height: 550px;
+  }
 
   .cta-image {
     left: -10%;
@@ -2124,6 +2118,11 @@ ol .consultation-list-item:nth-child(3)::before {
     margin-right: 24px;
   }
 
+  .card-image img {
+    width: 400px;
+    height: auto;
+  }
+
   .founder-photo {
     left: -15.625rem;
   }
@@ -2141,6 +2140,12 @@ ol .consultation-list-item:nth-child(3)::before {
   .head {
     padding-top: 4.75rem;
   }  
+}
+
+@media (max-width: 1360px) {
+  .founder-photo {
+    left: -28rem;
+  }
 }
 
 @media (max-width: 1200px) {
@@ -2185,6 +2190,10 @@ ol .consultation-list-item:nth-child(3)::before {
     flex-basis: 50%;
   }
 
+  .card-image img {
+    width: 100%;
+  }
+
   .trademarks-card {
     grid-template-columns: auto auto;
     padding: 30px;
@@ -2200,23 +2209,26 @@ ol .consultation-list-item:nth-child(3)::before {
     height: 31.25rem;
   }
   .founder-photo {
-    height: 31.25rem;
-    left: -18.75rem;
+    left: -12rem;
+  }
+  .founder-photo img {
+    max-width: 75%;
+    height: auto;
   }
   .founder-content-wrapper {
     margin-top: .9375rem;
   }
-
+  .founder-content {
+    max-width: 600px;
+  }
 
   .clients-content {
   flex-basis: 60%;
   }
 
-
   .cta-image {
     left: -35%;
   }
-
 
   .footer-top {
     flex-wrap: wrap;
@@ -2233,16 +2245,12 @@ ol .consultation-list-item:nth-child(3)::before {
     margin-right: 3.375rem;
   }
 
-
-
   .head {
     padding-top: 4.0625rem;
   }
   .repeat-block-image::before {
     right: 0;
   }
-
-
 
   .about-production-content {
     max-width: 100%;
@@ -2254,11 +2262,9 @@ ol .consultation-list-item:nth-child(3)::before {
     margin-bottom: 1.25rem;
   }
 
-
   .about-production-list {
     columns: 2 600px;
   }
-
 
   .chemicals-list {
     columns: 3 auto;
@@ -2268,13 +2274,15 @@ ol .consultation-list-item:nth-child(3)::before {
   .chemicals-list-item:nth-child(15) {
     margin-bottom: 1.25rem;
   }
-  
-
 }
 
 
 
-
+@media (max-width: 1100px) {
+  .founder-photo {
+    left: -17rem;
+  }
+}
 
 
 @media (max-width: 1024px) {
@@ -2282,6 +2290,9 @@ ol .consultation-list-item:nth-child(3)::before {
     max-width: 1120px;
   }
 
+  .founder-photo {
+    left: -19rem;
+  }  
 
   .footer-menu-columns-2 {
     min-width: 34.375rem;
@@ -2289,18 +2300,12 @@ ol .consultation-list-item:nth-child(3)::before {
   .footer-menu-wrapper-2 {
     margin-right: 4.8125rem;
   }
-
 }
-
-
 
 
 @media (max-width: 992px) {
   html {
     font-size: .75rem;
-  }
-  .header {
-    /* padding-top: 54px; */
   }
   .header-container {
     padding-left: 5px;
@@ -2341,7 +2346,6 @@ ol .consultation-list-item:nth-child(3)::before {
     height: auto;
     display: flex;
     flex-direction: column;
-    /* align-items: center; */
     justify-content: center;
     gap: 6px;
     padding: 27px 30px;
@@ -2504,12 +2508,17 @@ ol .consultation-list-item:nth-child(3)::before {
 
   .founder {
     height: auto;
+    overflow: hidden;
   }
   .founder-photo {
-    height: 25rem;
     position: relative;
     left: 0;
     margin-bottom: 1.875rem;
+    width: 600px;
+  }
+  .founder-photo img {
+    max-width: 100%;
+    height: 400px;
   }
   .founder-content-wrapper {
     justify-content: start;
@@ -2529,12 +2538,9 @@ ol .consultation-list-item:nth-child(3)::before {
     display: block;
   }
 
-
   .clients-wrapper {
     flex-direction: column;
   }
-
-
 
   .blog-slider-wrapper {
     gap: 0;
@@ -2544,15 +2550,12 @@ ol .consultation-list-item:nth-child(3)::before {
     flex-basis: 100%;
   }
 
-
   .cta-image {
     display: none;
   }
   .cta-form {
     max-width: 100%;
   }
-
-
 
   .footer-top {
     flex-direction: column;
@@ -2580,7 +2583,6 @@ ol .consultation-list-item:nth-child(3)::before {
     margin-right: 0;
   }
 
-
   .head {
     padding-top: 4.25rem;
   }
@@ -2589,7 +2591,6 @@ ol .consultation-list-item:nth-child(3)::before {
     height: 11.25rem;
   }
 
-
   .experts-content-wrapper {
     flex-direction: column;
   }
@@ -2597,8 +2598,6 @@ ol .consultation-list-item:nth-child(3)::before {
     max-width: 21.5625rem;
     height: 21.5625rem;
   }
-
-
 
   .about-production-wrapper {
     flex-direction: column;
@@ -2609,8 +2608,6 @@ ol .consultation-list-item:nth-child(3)::before {
     order: 0;
   }
 
-
-
   .research-section-title {
     max-width: 26.25rem;
   }
@@ -2618,14 +2615,10 @@ ol .consultation-list-item:nth-child(3)::before {
     display: none;
   }
 
-
   .chemicals-list {
     columns: 2 auto;
-  }
-  
+  }  
 }
-
-
 
 
 
@@ -2636,32 +2629,19 @@ ol .consultation-list-item:nth-child(3)::before {
   .header-title {
     font-size: 4rem;
   }
-  .header-content {
-    /* padding-top: 48px; */
-  }
-
 
   .section-title {
     font-size: 48px;
     margin-bottom: 32px;
   }
 
-
   .card {
     flex-basis: 100%;
   }
 
 
-  .founder-photo {
-    width: 100%;
-    height: 28.125rem;
-    object-fit: cover;
-  }
-
-
   .blog-card {
     height: 15.625rem;
-    /* flex-basis: 80%; */
   }
 
   .footer-wrapper,
@@ -2674,12 +2654,10 @@ ol .consultation-list-item:nth-child(3)::before {
     margin: 0;
   }
 
-
   .modal-dialog {
     max-width: 21.5625rem;
     height: 35.5rem;
     padding: 1.6875rem 1.875rem 1.875rem 1.875rem;
-
   }
   .modal-title {
     font-size: 2.5rem;
@@ -2711,7 +2689,6 @@ ol .consultation-list-item:nth-child(3)::before {
     margin-bottom: 1.125rem;
   }
 
-
   .modal-thank-dialog {
     height: 34.625rem; 
   }
@@ -2720,8 +2697,6 @@ ol .consultation-list-item:nth-child(3)::before {
     height: 15.3125rem;
     margin-bottom: 1.25rem;
   }
-
-
 
   .repeat-block-title {
     font-size: 3rem;
@@ -2736,8 +2711,6 @@ ol .consultation-list-item:nth-child(3)::before {
   .repeat-block-image::before {
     display: none;
   }
-
-
 
   .research-section-title {
     margin-bottom: .625rem;
@@ -2757,8 +2730,6 @@ ol .consultation-list-item:nth-child(3)::before {
     width: 21.5625rem;
     height: 12.1875rem;
   }
-
-
 }
 
 
@@ -2772,9 +2743,6 @@ ol .consultation-list-item:nth-child(3)::before {
   }
   .header-container {
     max-width: 95%;
-  }
-  .header-content {
-    /* padding-top: 64px; */
   }
   .seporator {
     width: 100px;
@@ -2818,8 +2786,6 @@ ol .consultation-list-item:nth-child(3)::before {
     margin: 0;
     margin-top: 17px;
   }
-
-
 
 
   .features-slider-wrapper {
@@ -2875,8 +2841,6 @@ ol .consultation-list-item:nth-child(3)::before {
     width: 40px;
     margin-right: 1.65rem;
   }
-
-
   
   .production {
     margin-bottom: 94px;
@@ -2908,9 +2872,12 @@ ol .consultation-list-item:nth-child(3)::before {
     margin: 0;
   }
   .card-image {
-    width: 85%;
+    right: -50px;
   }
-
+  .card-image img {
+    width: 345px;
+    height: 215px;
+  }
 
   .trademarks {
     margin-bottom: 100px;
@@ -2955,7 +2922,6 @@ ol .consultation-list-item:nth-child(3)::before {
     letter-spacing: 0.7px;
   }
 
-
   .clients-list {
     columns: 1;
   }
@@ -2963,13 +2929,15 @@ ol .consultation-list-item:nth-child(3)::before {
     flex-basis: 50%;
   }
 
-
   .founder {
     margin-bottom: 101px;
   }
   .founder-photo {
-    height: 294px;
     margin-bottom: 36px;
+  }
+  .founder-photo img {
+    width: 375px;
+    height: 295px;
   }
   .founder-section-title {
     margin-top: 18px;
@@ -2988,7 +2956,6 @@ ol .consultation-list-item:nth-child(3)::before {
   .founder-text-bottom {
     margin-bottom: 22px;
   }
-
 
   .clients {
     margin-bottom: 100px;
@@ -3024,7 +2991,7 @@ ol .consultation-list-item:nth-child(3)::before {
     display: none;
   }
   
-  .clients-logo {
+  .clients-logo img {
     width: 50px;
     height: 50px;
   }

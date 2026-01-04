@@ -71,32 +71,67 @@
 
         <div class="clients-logo-list">
         <a class="clients-logo-item" href="#">
-          <img class="clients-logo" src="img/client-logo-rgb.png" alt="clients logo">
-          <!-- <img class="clients-logo-rgb" src="img/client-logo-rgb.png" alt="clients logo"> -->
+          <picture class="clients-logo">
+            <source type="image/webp" srcset="img/client-logo-rgb.webp">
+            <source type="image/png" srcset="img/client-logo-rgb.png">
+            <img src="img/client-logo-rgb.png" alt="clients logo" width="70" height="70">
+          </picture>
         </a>
         <a class="clients-logo-item" href="#">
-          <img class="clients-logo" src="img/client-logo-rgb.png" alt="clients logo">
+          <picture class="clients-logo">
+            <source type="image/webp" srcset="img/client-logo-rgb.webp">
+            <source type="image/png" srcset="img/client-logo-rgb.png">
+            <img src="img/client-logo-rgb.png" alt="clients logo" width="70" height="70">
+          </picture>
         </a>
         <a class="clients-logo-item" href="#">
-          <img class="clients-logo" src="img/client-logo-rgb.png" alt="clients logo">
+          <picture class="clients-logo">
+            <source type="image/webp" srcset="img/client-logo-rgb.webp">
+            <source type="image/png" srcset="img/client-logo-rgb.png">
+            <img src="img/client-logo-rgb.png" alt="clients logo" width="70" height="70">
+          </picture>
         </a>
         <a class="clients-logo-item" href="#">
-          <img class="clients-logo" src="img/client-logo-rgb.png" alt="clients logo">
+          <picture class="clients-logo">
+            <source type="image/webp" srcset="img/client-logo-rgb.webp">
+            <source type="image/png" srcset="img/client-logo-rgb.png">
+            <img src="img/client-logo-rgb.png" alt="clients logo" width="70" height="70">
+          </picture>
         </a>
         <a class="clients-logo-item" href="#">
-          <img class="clients-logo" src="img/client-logo-rgb.png" alt="clients logo">
+          <picture class="clients-logo">
+            <source type="image/webp" srcset="img/client-logo-rgb.webp">
+            <source type="image/png" srcset="img/client-logo-rgb.png">
+            <img src="img/client-logo-rgb.png" alt="clients logo" width="70" height="70">
+          </picture>
         </a>
         <a class="clients-logo-item" href="#">
-          <img class="clients-logo" src="img/client-logo-rgb.png" alt="clients logo">
+          <picture class="clients-logo">
+            <source type="image/webp" srcset="img/client-logo-rgb.webp">
+            <source type="image/png" srcset="img/client-logo-rgb.png">
+            <img src="img/client-logo-rgb.png" alt="clients logo" width="70" height="70">
+          </picture>
         </a>
         <a class="clients-logo-item" href="#">
-          <img class="clients-logo" src="img/client-logo-rgb.png" alt="clients logo">
+          <picture class="clients-logo">
+            <source type="image/webp" srcset="img/client-logo-rgb.webp">
+            <source type="image/png" srcset="img/client-logo-rgb.png">
+            <img src="img/client-logo-rgb.png" alt="clients logo" width="70" height="70">
+          </picture>
         </a>
         <a class="clients-logo-item" href="#">
-          <img class="clients-logo" src="img/client-logo-rgb.png" alt="clients logo">
+          <picture class="clients-logo">
+            <source type="image/webp" srcset="img/client-logo-rgb.webp">
+            <source type="image/png" srcset="img/client-logo-rgb.png">
+            <img src="img/client-logo-rgb.png" alt="clients logo" width="70" height="70">
+          </picture>
         </a>
         <a class="clients-logo-item" href="#">
-          <img class="clients-logo" src="img/client-logo-rgb.png" alt="clients logo">
+          <picture class="clients-logo">
+            <source type="image/webp" srcset="img/client-logo-rgb.webp">
+            <source type="image/png" srcset="img/client-logo-rgb.png">
+            <img src="img/client-logo-rgb.png" alt="clients logo" width="70" height="70">
+          </picture>
         </a>
         </div>
         <!-- /.clients-logo -->
