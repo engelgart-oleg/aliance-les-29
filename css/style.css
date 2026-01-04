@@ -1076,7 +1076,8 @@ body {
   opacity: 1;
 }
 .modal-dialog {
-  height: 39.1875rem;
+  height: auto;
+  /* height: 39.1875rem; */
   margin: 0 auto;
   padding: 2.5rem 3.125rem 2.5rem 3.125rem;
   max-width: 28.75rem;
@@ -2307,10 +2308,11 @@ ol .consultation-list-item:nth-child(3)::before {
   }
 
   .mobile-menu-nav {
+    margin: 0;
     margin-left: -19.2px;
   }
   .mobile-menu-nav-item {
-    margin-bottom: 48px;
+    margin-bottom: 30px;
   }
 
   .mobile-menu-nav,
@@ -2323,7 +2325,7 @@ ol .consultation-list-item:nth-child(3)::before {
   }
   .mobile-menu-nav-link {
     font-weight: 700;
-    font-size: .875rem;
+    font-size: 14px;
     line-height: 160%;
     color: #292d33;
   }
@@ -2336,19 +2338,19 @@ ol .consultation-list-item:nth-child(3)::before {
   }
   .mobile-submenu-link {
     font-weight: 400;
-    font-size: .875rem;
+    font-size: 14px;
     line-height: 160%;
     color: #828a99;
   }
   .mobile-phone {
     display: block;
     font-weight: 600;
-    font-size: 1.25rem;
+    font-size: 20px;
     line-height: 160%;
     color: #292d33;
     margin-left: 32px;
     border-top: .0625rem solid #ebebf0;
-    padding-top: 48px;
+    padding-top: 30px;
   }
   .mobile-seporator {
     background-color: #ebebf0;
@@ -2365,7 +2367,7 @@ ol .consultation-list-item:nth-child(3)::before {
   .mobile-info-address,
   .mobile-info-email {
     font-weight: 400;
-    font-size: .875rem;
+    font-size: 14px;
     line-height: 160%;
     display: flex;
     gap: 10px;
@@ -2563,8 +2565,8 @@ ol .consultation-list-item:nth-child(3)::before {
   }
 
   .modal-dialog {
-    max-width: 21.5625rem;
-    height: 35.5rem;
+    max-width: 345px;
+    /* height: 568px; */
     padding: 1.6875rem 1.875rem 1.875rem 1.875rem;
   }
   .modal-title {
@@ -2593,17 +2595,23 @@ ol .consultation-list-item:nth-child(3)::before {
     font-size: .875rem;
   }
   .modal-form-button {
-    font-size: 19.2px;
+    font-size: 14px;
+    padding: 25px 40px;
     margin-bottom: 1.125rem;
   }
 
   .modal-thank-dialog {
-    height: 34.625rem; 
+    /* height: 34.625rem;  */
+    /* height: 424px;  */
+    height: auto;
   }
   .modal-thank-image {
-    width: 17.8125rem;
-    height: 15.3125rem;
-    margin-bottom: 1.25rem;
+    width: 285px;
+    height: 246px;
+    margin-bottom: 20px;
+  }
+  .modal-thank-button {
+    margin-bottom: 0;
   }
 
   .repeat-block-title {
