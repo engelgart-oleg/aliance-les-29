@@ -56,7 +56,14 @@ include_once('template-parts/repeat-block-bg.php');?>
         <p class="consultation-text">
           Разнообразный и богатый опыт начало повседневной работы по формированию позиции позволяет оценить значение позиций, занимаемых участниками в отношении поставленных задач. Разнообразный и богатый опыт реализация намеченных плановых заданий позволяет выполнять важные задания по разработке форм развития. Задача организации, в особенности же постоянный <a class="consultation-link" href="#">количественный рост</a> и сфера нашей активности обеспечивает широкому кругу (специалистов) участие в формировании форм развития.
         </p>
-        <img class="consultation-image" src="img/blog-more-image.png" alt="consultation photo">
+
+        <picture class="consultation-image">
+          <source type="image/webp" srcset="img/blog-more-image.webp">
+          <source type="image/png" srcset="img/blog-more-image.png">
+          <img src="img/blog-more-image.png" alt="consultation photo" width="960" height="550">
+        </picture>
+        <!-- <img class="consultation-image" src="img/blog-more-image.png" alt="consultation photo"> -->
+
         <h4 class="consultation-title-h4">Равным образом консультация с широким активом:</h4>
         <ul class="consultation-list">
           <li class="consultation-list-item">
@@ -128,9 +135,28 @@ include_once('header-page.php');?>
     padding-top: 3.15rem;
   }
 
+  @media (max-width: 1200px) {
+    .consultation-wrapper {
+      gap: 0;
+    }
+  }
   @media (max-width: 992px) {
+    .consultation-wrapper {
+      flex-wrap: wrap-reverse;
+      padding-left: 0;
+      gap: 57px;
+    }
+    .consultation-info {
+      align-self: start;
+    }
     .blog-card {
       flex-basis: 105%;
+    }
+  }
+
+  @media (max-width: 768px) {
+    .consultation-image {
+      width: 100%;
     }
   }
 
@@ -152,13 +178,8 @@ include_once('header-page.php');?>
     .consultation {
       margin-bottom: 120px;
     }
-    .consultation-wrapper {
-      flex-wrap: wrap-reverse;
-      padding-left: 0;
-    }
     .consultation-info {
-      max-width: 346px;
-      margin-bottom: 57px;
+      max-width: 100%;
     }
     .consultation-title {
       font-size: 28px;
@@ -171,7 +192,8 @@ include_once('header-page.php');?>
       max-width: 302px;
     }
     .consultation-info p:nth-child(2) {
-    margin-bottom: 36px;
+      max-width: 100%;
+      margin-bottom: 36px;
     }
     .consultation-title-h3 {
       font-size: 20px;
