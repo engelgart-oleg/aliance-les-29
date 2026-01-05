@@ -20,7 +20,7 @@
         <picture class="card-image">
           <source type="image/webp" srcset="img/production/1.webp">
           <source type="image/png" srcset="img/production/1.png">
-          <img src="img/production/1.png" alt="Автомобильная химия" width="480" height="300">
+          <img src="img/production/1.png" loading="lazy" alt="Автомобильная химия" width="480" height="300">
         </picture>
         <!-- <img class="card-image" src="img/production/1.png" alt="Автомобильная химия"> -->
       </a>
@@ -37,7 +37,7 @@
         <picture class="card-image">
           <source type="image/webp" srcset="img/production/2.webp">
           <source type="image/png" srcset="img/production/2.png">
-          <img src="img/production/2.png" alt="Бытовая химия" width="480" height="300">
+          <img src="img/production/2.png" loading="lazy" alt="Бытовая химия" width="480" height="300">
         </picture>
         <!-- <img class="card-image" src="img/production/2.png" alt="Бытовая химия"> -->
       </a>
@@ -52,7 +52,7 @@
         <picture class="card-image">
           <source type="image/webp" srcset="img/production/3.webp">
           <source type="image/png" srcset="img/production/3.png">
-          <img src="img/production/3.png" alt="Дезинфицирующие средства" width="480" height="300">
+          <img src="img/production/3.png" loading="lazy" alt="Дезинфицирующие средства" width="480" height="300">
         </picture>
         <!-- <img class="card-image" src="img/production/3.png" alt="Дезинфицирующие средства"> -->
       </a>
@@ -67,7 +67,7 @@
         <picture class="card-image">
           <source type="image/webp" srcset="img/production/3.webp">
           <source type="image/png" srcset="img/production/3.png">
-          <img src="img/production/3.png" alt="Пищевые аэрозоли" width="480" height="300">
+          <img src="img/production/3.png" loading="lazy" alt="Пищевые аэрозоли" width="480" height="300">
         </picture>
         <!-- <img class="card-image" src="img/production/3.png" alt="Пищевые аэрозоли"> -->
       </a>
@@ -82,7 +82,7 @@
         <picture class="card-image">
           <source type="image/webp" srcset="img/production/1.webp">
           <source type="image/png" srcset="img/production/1.png">
-          <img src="img/production/1.png" alt="Косметическая продукция" width="480" height="300">
+          <img src="img/production/1.png" loading="lazy" alt="Косметическая продукция" width="480" height="300">
         </picture>
         <!-- <img class="card-image" src="img/production/1.png" alt="Косметическая продукция"> -->
       </a>
@@ -99,7 +99,7 @@
         <picture class="card-image">
           <source type="image/webp" srcset="img/production/2.webp">
           <source type="image/png" srcset="img/production/2.png">
-          <img src="img/production/2.png" alt="Краски аэрозольные" width="480" height="300">
+          <img src="img/production/2.png" loading="lazy" alt="Краски аэрозольные" width="480" height="300">
         </picture>
         <!-- <img class="card-image" src="img/production/2.png" alt="Краски аэрозольные"> -->
       </a>

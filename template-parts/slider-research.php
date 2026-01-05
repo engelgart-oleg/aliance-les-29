@@ -28,7 +28,7 @@
           <picture class="research-card-image">
             <source type="image/webp" srcset="img/blog/blog-photo-1.webp">
             <source type="image/png" srcset="img/blog/blog-photo-1.png">
-            <img src="img/blog/blog-photo-1.png" alt="production fhoto" width="705" height="400">
+            <img src="img/blog/blog-photo-1.png" loading="lazy" alt="production fhoto" width="705" height="400">
           </picture>
           <!-- <img class="research-card-image" src="img/blog/blog-photo-1.png" alt="production fhoto"> -->
         </a>
@@ -36,7 +36,7 @@
           <picture class="research-card-image">
             <source type="image/webp" srcset="img/blog/blog-photo-2.webp">
             <source type="image/png" srcset="img/blog/blog-photo-2.png">
-            <img src="img/blog/blog-photo-2.png" alt="production fhoto" width="705" height="400">
+            <img src="img/blog/blog-photo-2.png" loading="lazy" alt="production fhoto" width="705" height="400">
           </picture>
           <!-- <img class="research-card-image" src="img/blog/blog-photo-2.png" alt="production fhoto"> -->
         </a>
@@ -44,7 +44,7 @@
           <picture class="research-card-image">
             <source type="image/webp" srcset="img/blog/blog-photo-1.webp">
             <source type="image/png" srcset="img/blog/blog-photo-1.png">
-            <img src="img/blog/blog-photo-1.png" alt="production fhoto" width="705" height="400">
+            <img src="img/blog/blog-photo-1.png" loading="lazy" alt="production fhoto" width="705" height="400">
           </picture>
           <!-- <img class="research-card-image" src="img/blog/blog-photo-1.png" alt="production fhoto"> -->
         </a>
@@ -52,7 +52,7 @@
           <picture class="research-card-image">
             <source type="image/webp" srcset="img/blog/blog-photo-2.webp">
             <source type="image/png" srcset="img/blog/blog-photo-2.png">
-            <img src="img/blog/blog-photo-2.png" alt="production fhoto" width="705" height="400">
+            <img src="img/blog/blog-photo-2.png" loading="lazy" alt="production fhoto" width="705" height="400">
           </picture>
           <!-- <img class="research-card-image" src="img/blog/blog-photo-2.png" alt="production fhoto"> -->
         </a>
@@ -60,7 +60,7 @@
           <picture class="research-card-image">
             <source type="image/webp" srcset="img/blog/blog-photo-1.webp">
             <source type="image/png" srcset="img/blog/blog-photo-1.png">
-            <img src="img/blog/blog-photo-1.png" alt="production fhoto" width="705" height="400">
+            <img src="img/blog/blog-photo-1.png" loading="lazy" alt="production fhoto" width="705" height="400">
           </picture>
           <!-- <img class="research-card-image" src="img/blog/blog-photo-1.png" alt="production fhoto"> -->
         </a>
@@ -68,7 +68,7 @@
           <picture class="research-card-image">
             <source type="image/webp" srcset="img/blog/blog-photo-2.webp">
             <source type="image/png" srcset="img/blog/blog-photo-2.png">
-            <img src="img/blog/blog-photo-2.png" alt="production fhoto" width="705" height="400">
+            <img src="img/blog/blog-photo-2.png" loading="lazy" alt="production fhoto" width="705" height="400">
           </picture>
           <!-- <img class=" research-card-image" src="img/blog/blog-photo-2.png" alt="production fhoto"> -->
         </a>

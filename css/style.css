@@ -1076,10 +1076,10 @@ body {
   opacity: 1;
 }
 .modal-dialog {
-  height: auto;
-  /* height: 39.1875rem; */
+  /* height: auto; */
+  height: 39.1875rem;
   margin: 0 auto;
-  padding: 2.5rem 3.125rem 2.5rem 3.125rem;
+  padding: 2.3rem 3.125rem 2.5rem 3.125rem;
   max-width: 28.75rem;
   background-color: #fff;
   position: relative;
@@ -1092,9 +1092,10 @@ body {
   font-weight: 400;
   font-size: 3rem;
   line-height: 120%;
+  letter-spacing: 0.4px;
   color: #292d33;
   margin: 0;
-  margin-bottom: 1.25rem;
+  margin-bottom: 1.55rem;
 }
 .modal-close {
   display: block;
@@ -1131,6 +1132,8 @@ body {
 .modal-form-button {
   display: block;
   width: 100%;
+  padding-top: 20px;
+  padding-bottom: 20px;
   margin-bottom: 1.5rem;
 }
 
@@ -2334,7 +2337,10 @@ ol .consultation-list-item:nth-child(3)::before {
     margin-top: 16px;
   }
   .mobile-submenu-item:not(last-child) {
-    margin-bottom: 16px;
+    margin-bottom: 10px;
+  }
+  .mobile-submenu-item:nth-child(6) {
+    margin-bottom: 0;
   }
   .mobile-submenu-link {
     font-weight: 400;
@@ -2348,7 +2354,7 @@ ol .consultation-list-item:nth-child(3)::before {
     font-size: 20px;
     line-height: 160%;
     color: #292d33;
-    margin-left: 32px;
+    margin-left: 16px;
     border-top: .0625rem solid #ebebf0;
     padding-top: 30px;
   }
@@ -2358,9 +2364,9 @@ ol .consultation-list-item:nth-child(3)::before {
   .mobile-info {
     display: flex;
     flex-direction: column;
-    gap: 16px;
+    gap: 10px;
     color: #292d33;
-    margin-left: 32px;
+    margin-left: 16px;
     margin-top: 20px;
     margin-bottom: 20px;
   }
@@ -2380,7 +2386,7 @@ ol .consultation-list-item:nth-child(3)::before {
     color: inherit;
   }
   .mobile-socials {
-    margin-left: 32px;
+    margin-left: 16px;
     display: flex;
     gap: 15px;
   }
@@ -2566,26 +2572,26 @@ ol .consultation-list-item:nth-child(3)::before {
 
   .modal-dialog {
     max-width: 345px;
-    /* height: 568px; */
+    height: 568px;
     padding: 1.6875rem 1.875rem 1.875rem 1.875rem;
   }
   .modal-title {
-    font-size: 2.5rem;
+    font-size: 40px;
     margin-bottom: .9375rem;
   }
   .modal-close {
-    width: 2.5rem;
-    height: 2.5rem;
-    top: 1.875rem;
-    right: 1.875rem;
+    width: 40px;
+    height: 40px;
+    top: 30px;
+    right: 30px;
   }
   .modal-close-icon {
     width: 1.125rem;
     height: 1.125rem;
   }
   .modal-text {
-    font-size: .875rem;
-    margin-bottom: 1.125rem;
+    font-size: 14px;
+    margin-bottom: 1.425rem;
   }
   .input-group-vertical {
     margin-bottom: 1.25rem;
@@ -2601,14 +2607,13 @@ ol .consultation-list-item:nth-child(3)::before {
   }
 
   .modal-thank-dialog {
-    /* height: 34.625rem;  */
-    /* height: 424px;  */
     height: auto;
   }
   .modal-thank-image {
     width: 285px;
-    height: 246px;
-    margin-bottom: 20px;
+    height: 250px;
+    margin-left: 10px;
+    margin-bottom: 14px;
   }
   .modal-thank-button {
     margin-bottom: 0;
@@ -3089,8 +3094,12 @@ ol .consultation-list-item:nth-child(3)::before {
   }
 
   .input-group-vertical {
-    margin-bottom: 1.25rem;
+    margin-bottom: 1.65rem;
   }  
+  .modal-form-button {
+    font-size: 14px;
+    margin-bottom: 1.625rem;
+  }
 
   .head {
     padding-top: 68px;
@@ -3172,5 +3181,27 @@ ol .consultation-list-item:nth-child(3)::before {
   }
   .seo-read-more {
     font-size: 14px;
+  }
+}
+
+
+@media (max-width: 380px) {
+  .navbar.navbar-light {
+    height: 48px;
+  }
+  .navbar-button {
+    padding-top: 15px;
+    padding-bottom: 15px;
+  }
+
+  .mobile-menu-line {
+    width: 132%;
+  }
+  .mobile-menu.is-open {
+    padding-top: 80px;
+    padding-left: 0;
+  }
+  .mobile-submenu {
+    padding-left: 16px;
   }
 }

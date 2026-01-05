@@ -9,7 +9,7 @@
           echo '<picture class="about-production-image-1">
                   <source type="image/webp" srcset="img/production-photo-1.webp">
                   <source type="image/png" srcset="img/production-photo-1.png">
-                  <img src="img/production-photo-1.png" alt="production photo">
+                  <img src="img/production-photo-1.png" loading="lazy" alt="production photo">
                 </picture>';      
         ?>        
 
@@ -119,7 +119,7 @@
       echo '<picture class="about-production-image-2">
               <source type="image/webp" srcset="img/production-photo-2.webp">
               <source type="image/png" srcset="img/production-photo-2.png">
-              <img src="img/production-photo-2.png" alt="production photo">
+              <img src="img/production-photo-2.png" loading="lazy" alt="production photo">
             </picture>';       
     ?>
 </section>

@@ -4,17 +4,17 @@
       <picture class="experts-photo-1">
         <source type="image/webp" srcset="img/experts.webp">
         <source type="image/png" srcset="img/experts.png">
-        <img src="img/experts.png" alt="experts photo">
+        <img src="img/experts.png" loading="lazy" alt="experts photo">
       </picture>
       <picture class="experts-photo-2">
         <source type="image/webp" srcset="img/experts-2.webp">
         <source type="image/png" srcset="img/experts-2.png">
-        <img src="img/experts-2.png" alt="experts photo">
+        <img src="img/experts-2.png" loading="lazy" alt="experts photo">
       </picture>
       <picture class="experts-photo-3">
         <source type="image/webp" srcset="img/experts-3.webp">
         <source type="image/png" srcset="img/experts-3.png">
-        <img src="img/experts-3.png" alt="experts photo">
+        <img src="img/experts-3.png" loading="lazy" alt="experts photo">
       </picture>
       <div class="experts-content">
         <?php

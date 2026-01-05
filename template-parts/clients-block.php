@@ -74,63 +74,63 @@
           <picture class="clients-logo">
             <source type="image/webp" srcset="img/client-logo-rgb.webp">
             <source type="image/png" srcset="img/client-logo-rgb.png">
-            <img src="img/client-logo-rgb.png" alt="clients logo" width="70" height="70">
+            <img src="img/client-logo-rgb.png" loading="lazy" alt="clients logo" width="70" height="70">
           </picture>
         </a>
         <a class="clients-logo-item" href="#">
           <picture class="clients-logo">
             <source type="image/webp" srcset="img/client-logo-rgb.webp">
             <source type="image/png" srcset="img/client-logo-rgb.png">
-            <img src="img/client-logo-rgb.png" alt="clients logo" width="70" height="70">
+            <img src="img/client-logo-rgb.png" loading="lazy" alt="clients logo" width="70" height="70">
           </picture>
         </a>
         <a class="clients-logo-item" href="#">
           <picture class="clients-logo">
             <source type="image/webp" srcset="img/client-logo-rgb.webp">
             <source type="image/png" srcset="img/client-logo-rgb.png">
-            <img src="img/client-logo-rgb.png" alt="clients logo" width="70" height="70">
+            <img src="img/client-logo-rgb.png" loading="lazy" alt="clients logo" width="70" height="70">
           </picture>
         </a>
         <a class="clients-logo-item" href="#">
           <picture class="clients-logo">
             <source type="image/webp" srcset="img/client-logo-rgb.webp">
             <source type="image/png" srcset="img/client-logo-rgb.png">
-            <img src="img/client-logo-rgb.png" alt="clients logo" width="70" height="70">
+            <img src="img/client-logo-rgb.png" loading="lazy" alt="clients logo" width="70" height="70">
           </picture>
         </a>
         <a class="clients-logo-item" href="#">
           <picture class="clients-logo">
             <source type="image/webp" srcset="img/client-logo-rgb.webp">
             <source type="image/png" srcset="img/client-logo-rgb.png">
-            <img src="img/client-logo-rgb.png" alt="clients logo" width="70" height="70">
+            <img src="img/client-logo-rgb.png" loading="lazy" alt="clients logo" width="70" height="70">
           </picture>
         </a>
         <a class="clients-logo-item" href="#">
           <picture class="clients-logo">
             <source type="image/webp" srcset="img/client-logo-rgb.webp">
             <source type="image/png" srcset="img/client-logo-rgb.png">
-            <img src="img/client-logo-rgb.png" alt="clients logo" width="70" height="70">
+            <img src="img/client-logo-rgb.png" loading="lazy" alt="clients logo" width="70" height="70">
           </picture>
         </a>
         <a class="clients-logo-item" href="#">
           <picture class="clients-logo">
             <source type="image/webp" srcset="img/client-logo-rgb.webp">
             <source type="image/png" srcset="img/client-logo-rgb.png">
-            <img src="img/client-logo-rgb.png" alt="clients logo" width="70" height="70">
+            <img src="img/client-logo-rgb.png" loading="lazy" alt="clients logo" width="70" height="70">
           </picture>
         </a>
         <a class="clients-logo-item" href="#">
           <picture class="clients-logo">
             <source type="image/webp" srcset="img/client-logo-rgb.webp">
             <source type="image/png" srcset="img/client-logo-rgb.png">
-            <img src="img/client-logo-rgb.png" alt="clients logo" width="70" height="70">
+            <img src="img/client-logo-rgb.png" loading="lazy" alt="clients logo" width="70" height="70">
           </picture>
         </a>
         <a class="clients-logo-item" href="#">
           <picture class="clients-logo">
             <source type="image/webp" srcset="img/client-logo-rgb.webp">
             <source type="image/png" srcset="img/client-logo-rgb.png">
-            <img src="img/client-logo-rgb.png" alt="clients logo" width="70" height="70">
+            <img src="img/client-logo-rgb.png" loading="lazy" alt="clients logo" width="70" height="70">
           </picture>
         </a>
         </div>
