@@ -144,7 +144,7 @@ include_once('header-page.php');?>
   @media (max-width: 768px) {
     .distributor {
       padding-bottom: 225px;
-      background-image: url(../img/distributor-bg-2.png);
+      background-image: url(../img/distributor-bg-2.webp), url(../img/distributor-bg-2.png);
       background-size: cover, 375px 264px;
       background-position: 70% 280px;
     }

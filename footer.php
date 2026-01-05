@@ -9,7 +9,12 @@
   <section class="section calltoaction">
 
     <div class="bg-gray section-cta">
-      <img class="cta-image" src="img/cta.png" alt="call to action">
+      <picture class="cta-image">
+        <source type="image/webp" srcset="img/cta.webp">
+        <source type="image/png" srcset="img/cta.png">
+        <img src="img/cta.png" loading="lazy" alt="call to action">
+      </picture>
+      <!-- <img class="cta-image" src="img/cta.png" alt="call to action"> -->
 
       <div class="cta-form-wrapper container">
         <form class="cta-form" method="POST" action="handler.php">
