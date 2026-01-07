@@ -27,50 +27,50 @@
         <a class="swiper-slide research-card" href="blog-more.php">
           <picture class="research-card-image">
             <source type="image/webp" srcset="img/blog/blog-photo-1.webp">
-            <source type="image/png" srcset="img/blog/blog-photo-1.png">
-            <img src="img/blog/blog-photo-1.png" loading="lazy" alt="production fhoto" width="705" height="400">
+            <source type="image/jpg" srcset="img/blog/blog-photo-1.jpg">
+            <img src="img/blog/blog-photo-1.jpg" loading="lazy" alt="production fhoto" width="705" height="400">
           </picture>
-          <!-- <img class="research-card-image" src="img/blog/blog-photo-1.png" alt="production fhoto"> -->
+          <!-- <img class="research-card-image" src="img/blog/blog-photo-1.jpg" alt="production fhoto"> -->
         </a>
         <a class="swiper-slide research-card" href="blog-more.php">
           <picture class="research-card-image">
             <source type="image/webp" srcset="img/blog/blog-photo-2.webp">
-            <source type="image/png" srcset="img/blog/blog-photo-2.png">
-            <img src="img/blog/blog-photo-2.png" loading="lazy" alt="production fhoto" width="705" height="400">
+            <source type="image/jpg" srcset="img/blog/blog-photo-2.jpg">
+            <img src="img/blog/blog-photo-2.jpg" loading="lazy" alt="production fhoto" width="705" height="400">
           </picture>
-          <!-- <img class="research-card-image" src="img/blog/blog-photo-2.png" alt="production fhoto"> -->
+          <!-- <img class="research-card-image" src="img/blog/blog-photo-2.jpg" alt="production fhoto"> -->
         </a>
         <a class="swiper-slide research-card" href="blog-more.php">
           <picture class="research-card-image">
             <source type="image/webp" srcset="img/blog/blog-photo-1.webp">
-            <source type="image/png" srcset="img/blog/blog-photo-1.png">
-            <img src="img/blog/blog-photo-1.png" loading="lazy" alt="production fhoto" width="705" height="400">
+            <source type="image/jpg" srcset="img/blog/blog-photo-1.jpg">
+            <img src="img/blog/blog-photo-1.jpg" loading="lazy" alt="production fhoto" width="705" height="400">
           </picture>
-          <!-- <img class="research-card-image" src="img/blog/blog-photo-1.png" alt="production fhoto"> -->
+          <!-- <img class="research-card-image" src="img/blog/blog-photo-1.jpg" alt="production fhoto"> -->
         </a>
         <a class="swiper-slide research-card" href="blog-more.php">
           <picture class="research-card-image">
             <source type="image/webp" srcset="img/blog/blog-photo-2.webp">
-            <source type="image/png" srcset="img/blog/blog-photo-2.png">
-            <img src="img/blog/blog-photo-2.png" loading="lazy" alt="production fhoto" width="705" height="400">
+            <source type="image/jpg" srcset="img/blog/blog-photo-2.jpg">
+            <img src="img/blog/blog-photo-2.jpg" loading="lazy" alt="production fhoto" width="705" height="400">
           </picture>
-          <!-- <img class="research-card-image" src="img/blog/blog-photo-2.png" alt="production fhoto"> -->
+          <!-- <img class="research-card-image" src="img/blog/blog-photo-2.jpg" alt="production fhoto"> -->
         </a>
         <a class="swiper-slide research-card" href="blog-more.php">
           <picture class="research-card-image">
             <source type="image/webp" srcset="img/blog/blog-photo-1.webp">
-            <source type="image/png" srcset="img/blog/blog-photo-1.png">
-            <img src="img/blog/blog-photo-1.png" loading="lazy" alt="production fhoto" width="705" height="400">
+            <source type="image/jpg" srcset="img/blog/blog-photo-1.jpg">
+            <img src="img/blog/blog-photo-1.jpg" loading="lazy" alt="production fhoto" width="705" height="400">
           </picture>
-          <!-- <img class="research-card-image" src="img/blog/blog-photo-1.png" alt="production fhoto"> -->
+          <!-- <img class="research-card-image" src="img/blog/blog-photo-1.jpg" alt="production fhoto"> -->
         </a>
         <a class="swiper-slide research-card" href="blog-more.php">
           <picture class="research-card-image">
             <source type="image/webp" srcset="img/blog/blog-photo-2.webp">
-            <source type="image/png" srcset="img/blog/blog-photo-2.png">
-            <img src="img/blog/blog-photo-2.png" loading="lazy" alt="production fhoto" width="705" height="400">
+            <source type="image/jpg" srcset="img/blog/blog-photo-2.jpg">
+            <img src="img/blog/blog-photo-2.jpg" loading="lazy" alt="production fhoto" width="705" height="400">
           </picture>
-          <!-- <img class=" research-card-image" src="img/blog/blog-photo-2.png" alt="production fhoto"> -->
+          <!-- <img class=" research-card-image" src="img/blog/blog-photo-2.jpg" alt="production fhoto"> -->
         </a>
       </div>
 

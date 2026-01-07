@@ -8,13 +8,13 @@
       </picture>
       <picture class="experts-photo-2">
         <source type="image/webp" srcset="img/experts-2.webp">
-        <source type="image/png" srcset="img/experts-2.png">
-        <img src="img/experts-2.png" loading="lazy" alt="experts photo">
+        <source type="image/jpg" srcset="img/experts-2.jpg">
+        <img src="img/experts-2.jpg" loading="lazy" alt="experts photo">
       </picture>
       <picture class="experts-photo-3">
         <source type="image/webp" srcset="img/experts-3.webp">
-        <source type="image/png" srcset="img/experts-3.png">
-        <img src="img/experts-3.png" loading="lazy" alt="experts photo">
+        <source type="image/jpg" srcset="img/experts-3.jpg">
+        <img src="img/experts-3.jpg" loading="lazy" alt="experts photo">
       </picture>
       <div class="experts-content">
         <?php

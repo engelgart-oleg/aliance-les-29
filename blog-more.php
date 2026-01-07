@@ -59,10 +59,10 @@ include_once('template-parts/repeat-block-bg.php');?>
 
         <picture class="consultation-image">
           <source type="image/webp" srcset="img/blog-more-image.webp">
-          <source type="image/png" srcset="img/blog-more-image.png">
-          <img src="img/blog-more-image.png" alt="consultation photo" width="960" height="550">
+          <source type="image/jpg" srcset="img/blog-more-image.jpg">
+          <img src="img/blog-more-image.jpg" alt="consultation photo" width="960" height="550">
         </picture>
-        <!-- <img class="consultation-image" src="img/blog-more-image.png" alt="consultation photo"> -->
+        <!-- <img class="consultation-image" src="img/blog-more-image.jpg" alt="consultation photo"> -->
 
         <h4 class="consultation-title-h4">Равным образом консультация с широким активом:</h4>
         <ul class="consultation-list">
