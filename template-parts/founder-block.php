@@ -1,8 +1,10 @@
 <section class="section founder">
   <!-- <img class="founder-photo" src="img/founder.jpg" alt="founder photo"> -->
   <picture class="founder-photo">
+    <source type="image/avif" srcset="img/founder_mobile.avif" media="(max-width: 576px)">
     <source type="image/webp" srcset="img/founder_mobile.webp" media="(max-width: 576px)">
     <source type="image/jpg" srcset="img/founder_mobile.jpg" media="(max-width: 576px)">
+    <source type="image/avif" srcset="img/founder.avif">
     <source type="image/webp" srcset="img/founder.webp">
     <source type="image/jpg" srcset="img/founder.jpg">
     <img src="img/founder.jpg" loading="lazy" alt="founder photo" width="840" height="660">

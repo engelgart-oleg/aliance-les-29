@@ -68,6 +68,7 @@ body {
 }
 .header-image {
   background-image: image-set(
+    url('../img/header_bg.avif') type('image/avif'),
     url('../img/header_bg.webp') type('image/webp'), 
     url('../img/header_bg.jpg') type('image/jpg')
   );
@@ -2671,7 +2672,8 @@ ol .consultation-list-item:nth-child(3)::before {
   }
   .header-image {
     background-image: image-set(
-      url('../img/header_bg_mobile.webp') type('image/webp'), 
+      url('../img/header_bg_mobile.avif') type('image/avif'), 
+      url('../img/header_bg_mobile.webp') type('image/webp'),
       url('../img/header_bg_mobile.jpg') type('image/jpg')
     );
   }

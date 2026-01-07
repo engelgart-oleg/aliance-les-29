@@ -18,6 +18,7 @@
           </p>
         </div>
         <picture class="card-image">
+          <source type="image/avif" srcset="img/production/1.avif">
           <source type="image/webp" srcset="img/production/1.webp">
           <source type="image/png" srcset="img/production/1.png">
           <img src="img/production/1.png" loading="lazy" alt="Автомобильная химия" width="480" height="300">
@@ -35,6 +36,7 @@
           </p>
         </div>
         <picture class="card-image">
+          <source type="image/avif" srcset="img/production/2.avif">
           <source type="image/webp" srcset="img/production/2.webp">
           <source type="image/png" srcset="img/production/2.png">
           <img src="img/production/2.png" loading="lazy" alt="Бытовая химия" width="480" height="300">
@@ -50,6 +52,7 @@
           </p>
         </div>
         <picture class="card-image">
+          <source type="image/avif" srcset="img/production/3.avif">
           <source type="image/webp" srcset="img/production/3.webp">
           <source type="image/png" srcset="img/production/3.png">
           <img src="img/production/3.png" loading="lazy" alt="Дезинфицирующие средства" width="480" height="300">
@@ -65,6 +68,7 @@
           </p>
         </div>
         <picture class="card-image">
+          <source type="image/avif" srcset="img/production/3.avif">
           <source type="image/webp" srcset="img/production/3.webp">
           <source type="image/png" srcset="img/production/3.png">
           <img src="img/production/3.png" loading="lazy" alt="Пищевые аэрозоли" width="480" height="300">
@@ -80,6 +84,7 @@
           </p>
         </div>
         <picture class="card-image">
+          <source type="image/avif" srcset="img/production/1.avif">
           <source type="image/webp" srcset="img/production/1.webp">
           <source type="image/png" srcset="img/production/1.png">
           <img src="img/production/1.png" loading="lazy" alt="Косметическая продукция" width="480" height="300">
@@ -97,6 +102,7 @@
           </p>
         </div>
         <picture class="card-image">
+          <source type="image/avif" srcset="img/production/2.avif">
           <source type="image/webp" srcset="img/production/2.webp">
           <source type="image/png" srcset="img/production/2.png">
           <img src="img/production/2.png" loading="lazy" alt="Краски аэрозольные" width="480" height="300">
