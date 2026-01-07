@@ -2552,6 +2552,13 @@ ol .consultation-list-item:nth-child(3)::before {
   .container {
     max-width: 800px;
   }
+  .header-image {
+    background-image: image-set(
+      url('../img/header_bg_mobile.avif') type('image/avif'), 
+      url('../img/header_bg_mobile.webp') type('image/webp'),
+      url('../img/header_bg_mobile.jpg') type('image/jpg')
+    );
+  }
   .header-title {
     font-size: 4rem;
   }
@@ -2670,13 +2677,13 @@ ol .consultation-list-item:nth-child(3)::before {
   .container {
     max-width: 90%;
   }
-  .header-image {
+  /* .header-image {
     background-image: image-set(
       url('../img/header_bg_mobile.avif') type('image/avif'), 
       url('../img/header_bg_mobile.webp') type('image/webp'),
       url('../img/header_bg_mobile.jpg') type('image/jpg')
     );
-  }
+  }*/
   .header-container {
     max-width: 95%;
   }

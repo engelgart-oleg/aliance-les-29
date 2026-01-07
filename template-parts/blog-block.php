@@ -15,9 +15,9 @@
         <a class="swiper-slide blog-card" href="blog-more.php">
 
           <picture class="blog-card-image">
-            <source type="image/avif" srcset="img/blog/blog-photo-mobile-1.avif" media="(max-width: 576px)">
-            <source type="image/webp" srcset="img/blog/blog-photo-mobile-1.webp" media="(max-width: 576px)">
-            <source type="image/jpg" srcset="img/blog/blog-photo-mobile-1.jpg" media="(max-width: 576px)">
+            <source type="image/avif" srcset="img/blog/blog-photo-mobile-1.avif" media="(max-width: 768px)">
+            <source type="image/webp" srcset="img/blog/blog-photo-mobile-1.webp" media="(max-width: 768px)">
+            <source type="image/jpg" srcset="img/blog/blog-photo-mobile-1.jpg" media="(max-width: 768px)">
             <source type="image/avif" srcset="img/blog/blog-photo-1.avif">
             <source type="image/webp" srcset="img/blog/blog-photo-1.webp">
             <source type="image/png" srcset="img/blog/blog-photo-1.png">
@@ -33,9 +33,9 @@
         <a class="swiper-slide blog-card blog-card-order" href="blog-more.php">
 
           <picture class="blog-card-image">
-            <source type="image/avif" srcset="img/blog/blog-photo-mobile-2.avif" media="(max-width: 576px)">
-            <source type="image/webp" srcset="img/blog/blog-photo-mobile-2.webp" media="(max-width: 576px)">
-            <source type="image/jpg" srcset="img/blog/blog-photo-mobile-2.jpg" media="(max-width: 576px)">
+            <source type="image/avif" srcset="img/blog/blog-photo-mobile-2.avif" media="(max-width: 768px)">
+            <source type="image/webp" srcset="img/blog/blog-photo-mobile-2.webp" media="(max-width: 768px)">
+            <source type="image/jpg" srcset="img/blog/blog-photo-mobile-2.jpg" media="(max-width: 768px)">
             <source type="image/avif" srcset="img/blog/blog-photo-2.avif">
             <source type="image/webp" srcset="img/blog/blog-photo-2.webp">
             <source type="image/png" srcset="img/blog/blog-photo-2.png">
@@ -52,9 +52,9 @@
         <a class="swiper-slide blog-card blog-card-order" href="blog-more.php">
 
           <picture class="blog-card-image">
-            <source type="image/avif" srcset="img/blog/blog-photo-mobile-2.avif" media="(max-width: 576px)">
-            <source type="image/webp" srcset="img/blog/blog-photo-mobile-2.webp" media="(max-width: 576px)">
-            <source type="image/jpg" srcset="img/blog/blog-photo-mobile-2.jpg" media="(max-width: 576px)">
+            <source type="image/avif" srcset="img/blog/blog-photo-mobile-2.avif" media="(max-width: 768px)">
+            <source type="image/webp" srcset="img/blog/blog-photo-mobile-2.webp" media="(max-width: 768px)">
+            <source type="image/jpg" srcset="img/blog/blog-photo-mobile-2.jpg" media="(max-width: 768px)">
             <source type="image/avif" srcset="img/blog/blog-photo-2.avif">
             <source type="image/webp" srcset="img/blog/blog-photo-2.webp">
             <source type="image/png" srcset="img/blog/blog-photo-2.png">
@@ -71,9 +71,9 @@
         <a class="swiper-slide blog-card" href="blog-more.php">
 
           <picture class="blog-card-image">
-            <source type="image/avif" srcset="img/blog/blog-photo-mobile-1.avif" media="(max-width: 576px)">
-            <source type="image/webp" srcset="img/blog/blog-photo-mobile-1.webp" media="(max-width: 576px)">
-            <source type="image/jpg" srcset="img/blog/blog-photo-mobile-1.jpg" media="(max-width: 576px)">
+            <source type="image/avif" srcset="img/blog/blog-photo-mobile-1.avif" media="(max-width: 768px)">
+            <source type="image/webp" srcset="img/blog/blog-photo-mobile-1.webp" media="(max-width: 768px)">
+            <source type="image/jpg" srcset="img/blog/blog-photo-mobile-1.jpg" media="(max-width: 768px)">
             <source type="image/avif" srcset="img/blog/blog-photo-1.avif">
             <source type="image/webp" srcset="img/blog/blog-photo-1.webp">
             <source type="image/png" srcset="img/blog/blog-photo-1.png">
@@ -89,9 +89,9 @@
         <a class="swiper-slide blog-card" href="blog-more.php">
 
           <picture class="blog-card-image">
-            <source type="image/avif" srcset="img/blog/blog-photo-mobile-1.avif" media="(max-width: 576px)">
-            <source type="image/webp" srcset="img/blog/blog-photo-mobile-1.webp" media="(max-width: 576px)">
-            <source type="image/jpg" srcset="img/blog/blog-photo-mobile-1.jpg" media="(max-width: 576px)">
+            <source type="image/avif" srcset="img/blog/blog-photo-mobile-1.avif" media="(max-width: 768px)">
+            <source type="image/webp" srcset="img/blog/blog-photo-mobile-1.webp" media="(max-width: 768px)">
+            <source type="image/jpg" srcset="img/blog/blog-photo-mobile-1.jpg" media="(max-width: 768px)">
             <source type="image/avif" srcset="img/blog/blog-photo-1.avif">
             <source type="image/webp" srcset="img/blog/blog-photo-1.webp">
             <source type="image/png" srcset="img/blog/blog-photo-1.png">
@@ -107,9 +107,9 @@
         <a class="swiper-slide blog-card blog-card-order" href="blog-more.php">
 
           <picture class="blog-card-image">
-            <source type="image/avif" srcset="img/blog/blog-photo-mobile-2.avif" media="(max-width: 576px)">
-            <source type="image/webp" srcset="img/blog/blog-photo-mobile-2.webp" media="(max-width: 576px)">
-            <source type="image/jpg" srcset="img/blog/blog-photo-mobile-2.jpg" media="(max-width: 576px)">
+            <source type="image/avif" srcset="img/blog/blog-photo-mobile-2.avif" media="(max-width: 768px)">
+            <source type="image/webp" srcset="img/blog/blog-photo-mobile-2.webp" media="(max-width: 768px)">
+            <source type="image/jpg" srcset="img/blog/blog-photo-mobile-2.jpg" media="(max-width: 768px)">
             <source type="image/avif" srcset="img/blog/blog-photo-2.avif">
             <source type="image/webp" srcset="img/blog/blog-photo-2.webp">
             <source type="image/png" srcset="img/blog/blog-photo-2.png">
@@ -126,9 +126,9 @@
         <a class="swiper-slide blog-card blog-card-order" href="blog-more.php">
 
           <picture class="blog-card-image">
-            <source type="image/avif" srcset="img/blog/blog-photo-mobile-2.avif" media="(max-width: 576px)">
-            <source type="image/webp" srcset="img/blog/blog-photo-mobile-2.webp" media="(max-width: 576px)">
-            <source type="image/jpg" srcset="img/blog/blog-photo-mobile-2.jpg" media="(max-width: 576px)">
+            <source type="image/avif" srcset="img/blog/blog-photo-mobile-2.avif" media="(max-width: 768px)">
+            <source type="image/webp" srcset="img/blog/blog-photo-mobile-2.webp" media="(max-width: 768px)">
+            <source type="image/jpg" srcset="img/blog/blog-photo-mobile-2.jpg" media="(max-width: 768px)">
             <source type="image/avif" srcset="img/blog/blog-photo-2.avif">
             <source type="image/webp" srcset="img/blog/blog-photo-2.webp">
             <source type="image/png" srcset="img/blog/blog-photo-2.png">
@@ -145,9 +145,9 @@
         <a class="swiper-slide blog-card" href="blog-more.php">
 
           <picture class="blog-card-image">
-            <source type="image/avif" srcset="img/blog/blog-photo-mobile-1.avif" media="(max-width: 576px)">
-            <source type="image/webp" srcset="img/blog/blog-photo-mobile-1.webp" media="(max-width: 576px)">
-            <source type="image/jpg" srcset="img/blog/blog-photo-mobile-1.jpg" media="(max-width: 576px)">
+            <source type="image/avif" srcset="img/blog/blog-photo-mobile-1.avif" media="(max-width: 768px)">
+            <source type="image/webp" srcset="img/blog/blog-photo-mobile-1.webp" media="(max-width: 768px)">
+            <source type="image/jpg" srcset="img/blog/blog-photo-mobile-1.jpg" media="(max-width: 768px)">
             <source type="image/avif" srcset="img/blog/blog-photo-1.avif">
             <source type="image/webp" srcset="img/blog/blog-photo-1.webp">
             <source type="image/png" srcset="img/blog/blog-photo-1.png">
@@ -162,9 +162,9 @@
         <a class="swiper-slide blog-card" href="blog-more.php">
 
           <picture class="blog-card-image">
-            <source type="image/avif" srcset="img/blog/blog-photo-mobile-1.avif" media="(max-width: 576px)">
-            <source type="image/webp" srcset="img/blog/blog-photo-mobile-1.webp" media="(max-width: 576px)">
-            <source type="image/jpg" srcset="img/blog/blog-photo-mobile-1.jpg" media="(max-width: 576px)">
+            <source type="image/avif" srcset="img/blog/blog-photo-mobile-1.avif" media="(max-width: 768px)">
+            <source type="image/webp" srcset="img/blog/blog-photo-mobile-1.webp" media="(max-width: 768px)">
+            <source type="image/jpg" srcset="img/blog/blog-photo-mobile-1.jpg" media="(max-width: 768px)">
             <source type="image/avif" srcset="img/blog/blog-photo-1.avif">
             <source type="image/webp" srcset="img/blog/blog-photo-1.webp">
             <source type="image/jpg" srcset="img/blog/blog-photo-1.jpg">
@@ -180,9 +180,9 @@
         <a class="swiper-slide blog-card blog-card-order" href="blog-more.php">
 
           <picture class="blog-card-image">
-            <source type="image/avif" srcset="img/blog/blog-photo-mobile-2.avif" media="(max-width: 576px)">
-            <source type="image/webp" srcset="img/blog/blog-photo-mobile-2.webp" media="(max-width: 576px)">
-            <source type="image/jpg" srcset="img/blog/blog-photo-mobile-2.jpg" media="(max-width: 576px)">
+            <source type="image/avif" srcset="img/blog/blog-photo-mobile-2.avif" media="(max-width: 768px)">
+            <source type="image/webp" srcset="img/blog/blog-photo-mobile-2.webp" media="(max-width: 768px)">
+            <source type="image/jpg" srcset="img/blog/blog-photo-mobile-2.jpg" media="(max-width: 768px)">
             <source type="image/avif" srcset="img/blog/blog-photo-2.avif">
             <source type="image/webp" srcset="img/blog/blog-photo-2.webp">
             <source type="image/jpg" srcset="img/blog/blog-photo-2.jpg">
