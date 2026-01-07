@@ -15,6 +15,8 @@
         <a class="swiper-slide blog-card" href="blog-more.php">
 
           <picture class="blog-card-image">
+            <source type="image/webp" srcset="img/blog/blog-photo-mobile-1.webp" media="(max-width: 576px)">
+            <source type="image/jpg" srcset="img/blog/blog-photo-mobile-1.jpg" media="(max-width: 576px)">
             <source type="image/webp" srcset="img/blog/blog-photo-1.webp">
             <source type="image/png" srcset="img/blog/blog-photo-1.png">
             <img src="img/blog/blog-photo-1.png" loading="lazy" alt="production fhoto" width="705" height="400">
@@ -29,6 +31,8 @@
         <a class="swiper-slide blog-card blog-card-order" href="blog-more.php">
 
           <picture class="blog-card-image">
+            <source type="image/webp" srcset="img/blog/blog-photo-mobile-2.webp" media="(max-width: 576px)">
+            <source type="image/jpg" srcset="img/blog/blog-photo-mobile-2.jpg" media="(max-width: 576px)">
             <source type="image/webp" srcset="img/blog/blog-photo-2.webp">
             <source type="image/png" srcset="img/blog/blog-photo-2.png">
             <img src="img/blog/blog-photo-2.png" loading="lazy" alt="production fhoto" width="705" height="400">
@@ -44,6 +48,8 @@
         <a class="swiper-slide blog-card blog-card-order" href="blog-more.php">
 
           <picture class="blog-card-image">
+            <source type="image/webp" srcset="img/blog/blog-photo-mobile-2.webp" media="(max-width: 576px)">
+            <source type="image/jpg" srcset="img/blog/blog-photo-mobile-2.jpg" media="(max-width: 576px)">
             <source type="image/webp" srcset="img/blog/blog-photo-2.webp">
             <source type="image/png" srcset="img/blog/blog-photo-2.png">
             <img src="img/blog/blog-photo-2.png" loading="lazy" alt="production fhoto" width="705" height="400">
@@ -59,6 +65,8 @@
         <a class="swiper-slide blog-card" href="blog-more.php">
 
           <picture class="blog-card-image">
+            <source type="image/webp" srcset="img/blog/blog-photo-mobile-1.webp" media="(max-width: 576px)">
+            <source type="image/jpg" srcset="img/blog/blog-photo-mobile-1.jpg" media="(max-width: 576px)">
             <source type="image/webp" srcset="img/blog/blog-photo-1.webp">
             <source type="image/png" srcset="img/blog/blog-photo-1.png">
             <img src="img/blog/blog-photo-1.png" loading="lazy" alt="production fhoto" width="705" height="400">
@@ -73,6 +81,8 @@
         <a class="swiper-slide blog-card" href="blog-more.php">
 
           <picture class="blog-card-image">
+            <source type="image/webp" srcset="img/blog/blog-photo-mobile-1.webp" media="(max-width: 576px)">
+            <source type="image/jpg" srcset="img/blog/blog-photo-mobile-1.jpg" media="(max-width: 576px)">
             <source type="image/webp" srcset="img/blog/blog-photo-1.webp">
             <source type="image/png" srcset="img/blog/blog-photo-1.png">
             <img src="img/blog/blog-photo-1.png" loading="lazy" alt="production fhoto" width="705" height="400">
@@ -87,6 +97,8 @@
         <a class="swiper-slide blog-card blog-card-order" href="blog-more.php">
 
           <picture class="blog-card-image">
+            <source type="image/webp" srcset="img/blog/blog-photo-mobile-2.webp" media="(max-width: 576px)">
+            <source type="image/jpg" srcset="img/blog/blog-photo-mobile-2.jpg" media="(max-width: 576px)">
             <source type="image/webp" srcset="img/blog/blog-photo-2.webp">
             <source type="image/png" srcset="img/blog/blog-photo-2.png">
             <img src="img/blog/blog-photo-2.png" loading="lazy" alt="production fhoto" width="705" height="400">
@@ -102,6 +114,8 @@
         <a class="swiper-slide blog-card blog-card-order" href="blog-more.php">
 
           <picture class="blog-card-image">
+            <source type="image/webp" srcset="img/blog/blog-photo-mobile-2.webp" media="(max-width: 576px)">
+            <source type="image/jpg" srcset="img/blog/blog-photo-mobile-2.jpg" media="(max-width: 576px)">
             <source type="image/webp" srcset="img/blog/blog-photo-2.webp">
             <source type="image/png" srcset="img/blog/blog-photo-2.png">
             <img src="img/blog/blog-photo-2.png" loading="lazy" alt="production fhoto" width="705" height="400">
@@ -117,12 +131,13 @@
         <a class="swiper-slide blog-card" href="blog-more.php">
 
           <picture class="blog-card-image">
+            <source type="image/webp" srcset="img/blog/blog-photo-mobile-1.webp" media="(max-width: 576px)">
+            <source type="image/jpg" srcset="img/blog/blog-photo-mobile-1.jpg" media="(max-width: 576px)">
             <source type="image/webp" srcset="img/blog/blog-photo-1.webp">
             <source type="image/png" srcset="img/blog/blog-photo-1.png">
             <img src="img/blog/blog-photo-1.png" loading="lazy" alt="production fhoto" width="705" height="400">
           </picture>
 
-          <!-- <img class="blog-card-image" src="img/blog/blog-photo-1.png" alt="production fhoto"> -->
           <h3 class="blog-card-title">Современная методология разработки одухотворила всех причастных</h3>
           <p class="blog-card-text">
             Действия представителей оппозиции, превозмогая сложившуюся непростую экономическую ситуацию, в равной степени предоставлены...
@@ -131,6 +146,8 @@
         <a class="swiper-slide blog-card" href="blog-more.php">
 
           <picture class="blog-card-image">
+            <source type="image/webp" srcset="img/blog/blog-photo-mobile-1.webp" media="(max-width: 576px)">
+            <source type="image/jpg" srcset="img/blog/blog-photo-mobile-1.jpg" media="(max-width: 576px)">
             <source type="image/webp" srcset="img/blog/blog-photo-1.webp">
             <source type="image/jpg" srcset="img/blog/blog-photo-1.jpg">
             <img src="img/blog/blog-photo-1.jpg" loading="lazy" alt="production fhoto" width="705" height="400">
@@ -145,12 +162,13 @@
         <a class="swiper-slide blog-card blog-card-order" href="blog-more.php">
 
           <picture class="blog-card-image">
+            <source type="image/webp" srcset="img/blog/blog-photo-mobile-2.webp" media="(max-width: 576px)">
+            <source type="image/jpg" srcset="img/blog/blog-photo-mobile-2.jpg" media="(max-width: 576px)">
             <source type="image/webp" srcset="img/blog/blog-photo-2.webp">
             <source type="image/jpg" srcset="img/blog/blog-photo-2.jpg">
             <img src="img/blog/blog-photo-2.jpg" loading="lazy" alt="production fhoto" width="705" height="400">
           </picture>
 
-          <!-- <img class="blog-card-image" src="img/blog/blog-photo-2.png" alt="production fhoto"> -->
           <h3 class="blog-card-title">Сложно сказать, почему жизнь прекрасна</h3>
           <p class="blog-card-text">
             Сложно сказать, почему элементы политического процесса функционально разнесены на независимые элементы. Безусловно,

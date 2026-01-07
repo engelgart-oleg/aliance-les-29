@@ -67,7 +67,11 @@ body {
   padding-top: 94px;
 }
 .header-image {
-  background-image: url(../img/header_bg.webp), url(../img/header_bg.jpg);
+  background-image: image-set(
+    url('../img/header_bg.webp') type('image/webp'), 
+    url('../img/header_bg.jpg') type('image/jpg')
+  );
+  /* background-image: url(../img/header_bg.webp), url(../img/header_bg.jpg); */
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center bottom 3.008px;
@@ -2664,6 +2668,12 @@ ol .consultation-list-item:nth-child(3)::before {
   }
   .container {
     max-width: 90%;
+  }
+  .header-image {
+    background-image: image-set(
+      url('../img/header_bg_mobile.webp') type('image/webp'), 
+      url('../img/header_bg_mobile.jpg') type('image/jpg')
+    );
   }
   .header-container {
     max-width: 95%;
